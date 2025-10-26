@@ -1,0 +1,71 @@
+[
+  {
+    "graph_id": "small_dense_4V",
+    "V_initial": 4,
+    "E_initial": 5,
+    "results": [
+      {
+        "algorithm_name": "Prim\u0027s Algorithm",
+        "mst_weight": 0.6000000000000001,
+        "execution_time_ms": 0,
+        "operation_count": 18,
+        "v_count": 4,
+        "e_count_mst": 3
+      },
+      {
+        "algorithm_name": "Kruskal\u0027s Algorithm",
+        "mst_weight": 0.6000000000000001,
+        "execution_time_ms": 0,
+        "operation_count": 17,
+        "v_count": 4,
+        "e_count_mst": 3
+      }
+    ]
+  },
+  {
+    "graph_id": "medium_sparse_15V",
+    "V_initial": 15,
+    "E_initial": 25,
+    "results": [
+      {
+        "algorithm_name": "Prim\u0027s Algorithm",
+        "mst_weight": 4.530000000000001,
+        "execution_time_ms": 0,
+        "operation_count": 88,
+        "v_count": 15,
+        "e_count_mst": 14
+      },
+      {
+        "algorithm_name": "Kruskal\u0027s Algorithm",
+        "mst_weight": 4.53,
+        "execution_time_ms": 0,
+        "operation_count": 101,
+        "v_count": 15,
+        "e_count_mst": 14
+      }
+    ]
+  },
+  {
+    "graph_id": "large_dense_30V",
+    "V_initial": 30,
+    "E_initial": 60,
+    "results": [
+      {
+        "algorithm_name": "Prim\u0027s Algorithm",
+        "mst_weight": 9.040000000000001,
+        "execution_time_ms": 0,
+        "operation_count": 200,
+        "v_count": 30,
+        "e_count_mst": 29
+      },
+      {
+        "algorithm_name": "Kruskal\u0027s Algorithm",
+        "mst_weight": 9.04,
+        "execution_time_ms": 0,
+        "operation_count": 194,
+        "v_count": 30,
+        "e_count_mst": 29
+      }
+    ]
+  }
+]
